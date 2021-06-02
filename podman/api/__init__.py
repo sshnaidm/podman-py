@@ -16,7 +16,7 @@ from podman.api.tar_utils import create_tar, prepare_containerfile, prepare_cont
 
 from .. import version
 
-DEFAULT_CHUNK_SIZE = 2 * 1024 * 1024
+DEFAULT_CHUNK_SIZE = 3 * 1024 * 1024
 
 
 def _api_version(release: str, significant: int = 3) -> str:
